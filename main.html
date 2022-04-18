@@ -75,6 +75,16 @@ opacity: 0;
 box-shadow: -1px -1px 10px #1B1815;
 }
 
+.emptyMarker {
+    z-index: 1;
+    position: fixed;
+    width: 500px;
+    top: 55%;
+    left: 20%;
+    box-shadow: -1px -1px 8px #515151;
+}
+
+
 </style>
 </head>
 
@@ -132,7 +142,8 @@ box-shadow: -1px -1px 10px #1B1815;
 <img src="marker19.png" id="m19">
 <img src="marker20.png" id="m20">
 </span>
-<img src="markerempty.png" style="z-index: 1; position: fixed; width:500px; top:55%; left:20%; box-shadow: -1px -1px 8px #515151">
+<img src="markerempty.png" class="emptyMarker">
+<img src="markerblank.png" style="opacity: 0" class="emptyMarker">
 
 
 
